@@ -1,4 +1,4 @@
-# Avaliação Espacial da Associação entre Qualidade do Ar, Internações por Doenças Respiratórias e Custos ao SUS em Municípios Paulistas (2017–2025)
+# ASSOCIAÇÃO ENTRE QUALIDADE DO AR, INTERNAÇÕES POR DOENÇAS RESPIRATÓRIAS E CUSTOS HOSPITALARES EM MUNICÍPIOS PAULISTAS (2017 - 2025)
 
 ## Autor
 
