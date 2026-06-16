@@ -51,6 +51,7 @@ Imputação dos dados faltantes (missForest)
 Deflacionamento dos custos hospitalares
 Correlação parcial ajustada
 Modelagem estatística final (Modelo 25)
+
 Orientador
 
 Prof. Dr. Vitor Vieira Vasconcelos
