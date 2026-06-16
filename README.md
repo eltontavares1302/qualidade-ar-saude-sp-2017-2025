@@ -8,13 +8,13 @@ Programa de Pós-Graduação em Ciência e Tecnologia Ambiental (CTA)
 
 Universidade Federal do ABC (UFABC)
 
-## Resumo
+Resumo
 
-Este repositório reúne os scripts, dados processados e produtos cartográficos desenvolvidos na dissertação de mestrado intitulada:
+Este repositório reúne os scripts, bases de dados processadas e produtos analíticos desenvolvidos na dissertação de mestrado intitulada:
 
-**"Avaliação Espacial da Associação entre Qualidade do Ar, Internações por Doenças Respiratórias e Custos ao SUS em Municípios Paulistas (2017–2025)"**
+"Associação entre Qualidade do Ar, Internações por Doenças Respiratórias e Custos Hospitalares em Municípios Paulistas (2017–2025)"
 
-O estudo investiga a associação entre poluentes atmosféricos (MP₂.₅, NO₂ e O₃), variáveis meteorológicas e indicadores hospitalares respiratórios, utilizando modelos aditivos generalizados (GAM), análise espacial e dados provenientes do QUALAR/CETESB e do SIH/SUS-DATASUS.
+O estudo investiga a associação entre poluentes atmosféricos (MP₂.₅, NO₂ e O₃), variáveis meteorológicas e indicadores hospitalares respiratórios, utilizando Modelos Aditivos Generalizados (GAM), análise exploratória e dados provenientes do QUALAR/CETESB e do SIH/SUS-DATASUS.
 
 ## Bases de dados
 
@@ -28,19 +28,29 @@ O estudo investiga a associação entre poluentes atmosféricos (MP₂.₅, NO�
  - QGIS
  - GitHub
 
-## Estrutura do repositório
+Estrutura do Repositório
+01_Imputacao_MissForest
 
-dados/
+Tratamento de dados faltantes por meio do algoritmo missForest.
 
-scripts/
+02_Deflacionamento_Custos
 
-figuras/
+Correção monetária dos custos hospitalares utilizando índices oficiais de inflação.
 
-resultados/
+03_Correlacao_Parcial
 
-apendices/
+Análise exploratória das correlações parciais entre variáveis ambientais, meteorológicas e indicadores hospitalares.
 
-## Orientador
+04_Modelo_25
+
+Modelagem estatística final baseada em Modelos Aditivos Generalizados (GAM), incluindo seleção de modelos, diagnósticos, métricas globais, tamanhos de efeito, gráficos e tabelas síntese.
+
+Fluxo Analítico
+Imputação dos dados faltantes (missForest)
+Deflacionamento dos custos hospitalares
+Correlação parcial ajustada
+Modelagem estatística final (Modelo 25)
+Orientador
 
 Prof. Dr. Vitor Vieira Vasconcelos
 
